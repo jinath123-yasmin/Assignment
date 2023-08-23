@@ -1,0 +1,61 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.completed {
+  background-color: #e0ffe0;
+  text-decoration: line-through;
+}
+
+.task span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.complete-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-task {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
